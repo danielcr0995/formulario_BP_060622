@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="form-title">Formulario</h2>
+
+        <form autocomplete="on" class="form-register" action = "https://www.youtube.com/results" method = "get">
+
+            <div class="fName input-container">
+                <label for="fName" >Nombre:</label>
+                <input class="input" id="fName" type="text" name="name" placeholder="Nombre">
+                <p class="input-error"></p>
+            </div>
+            <div class="lName input-container">
+                <label for="lName">Apellido:</label>
+                <input class="input" id="lName" type="text" name="name" placeholder="Apellido">
+                <p class="input-error"></p>
+            </div>
+            <div class="cedula input-container">
+                <label for="cedula">Cedula:</label>
+                <input class="input" id="cedula" type="text" name="name" placeholder="Cedula">
+                <p class="input-error"></p>
+            </div>
+            <div class="email input-container">
+                <label for="email">Email:</label>
+                <input class="input" id="email" type="text" name="name" placeholder="Email">
+                <p class="input-error"></p>
+            </div>
+            <div class="input-container">
+                <button type="submit" class="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

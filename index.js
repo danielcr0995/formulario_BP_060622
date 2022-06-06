@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', function(){
             }            
         }
 
-        if(!canSubmit){
+        if(canSubmit){
             e.preventDefault()
         }
     })
